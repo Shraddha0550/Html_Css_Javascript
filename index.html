@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h2{
+            text-align: center;
+            position: absolute;
+            top: 30px;
+            left: 40%;
+        }
+        div{
+            width: 30%;
+            height: 500px;
+            margin-left: 35%;
+            border: 2px solid black;
+            margin-top: 100px;
+            padding: 15px;
+        }   
+        input[type=text]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+          /*  border: none;
+            border-bottom: 2px solid red;*/
+        }
+        input[type=text]:focus {
+            background-color: lightblue;
+       }
+        input{
+            width: 100%;
+            background-color: #f8f8f8;
+        }
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: cadetblue;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: cadetblue;
+            opacity: .7;
+        }
+        textarea{
+            width: 100%;
+            height: 70px;
+            margin-top: 10px;
+            background-color: #f8f8f8;
+        }
+        select{
+            width: 100%;
+            margin-top: 10px;
+            padding: 12px 20px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h2>Fill The Information</h2>
+    <div>
+       
+        <form>
+            <label>First Name</label>
+            <input type="text">
+            <br>
+            <label>Last Name</label>
+            <input type="text">
+            
+            <textarea>Type Something..</textarea>
+
+            <select id="country" name="country">
+                <option value="au">Australia</option>
+                <option value="ca">Canada</option>
+                <option value="usa">USA</option>
+             </select>
+
+            <button>Save</button>
+        </form>
+    </div>
+</body>
+</html>
