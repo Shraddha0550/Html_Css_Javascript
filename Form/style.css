@@ -22,8 +22,7 @@ input[type=text]{
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  /*  border: none;
-    border-bottom: 2px solid red;*/
+
 }
 input[type=text]:focus {
     background-color: lightblue;
@@ -61,8 +60,5 @@ select{
         margin-left: 10%;
        
     }
-    h2{
-        text-align: center;
-       
-    }
+   
 }
